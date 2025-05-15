@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Low Credits Alert</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Lato', sans-serif;
+line-height: 1.6;
+color: #333;
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+ }
+.logo {
+text-align: center;
+margin-bottom: 20px;
+ }
+.logo img {
+max-width: 200px;
+ }
+h1 {
+color: #2c3e50;
+text-align: center;
+ }
+.alert-box {
+background-color: #fff3cd;
+border-left: 4px solid #ffc107;
+padding: 15px;
+margin-top: 20px;
+ }
+.credit-status {
+background-color: #f8f9fa;
+border: 1px solid #ffc107;
+text-align: center;
+padding: 20px;
+margin: 20px 0;
+ }
+.credit-amount {
+font-size: 32px;
+font-weight: bold;
+color: #ffc107;
+margin: 10px 0;
+ }
+.btn {
+display: inline-block;
+background-color: #ffc107;
+color: #000;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 5px;
+margin-top: 20px;
+font-weight: bold;
+ }
+.btn:hover {
+background-color: #e0a800;
+ }
+.signature {
+margin-top: 30px;
+border-top: 1px solid #eee;
+padding-top: 20px;
+ }
+.usage-details {
+margin-top: 20px;
+padding: 15px;
+background-color: #f8f9fa;
+ }
+</style>
+</head>
+<body>
+<div class="logo">
+<img src="{{logoUrl}}" alt="{{companyName}} Logo">
+</div>
+
+<h1>Low Credits Alert</h1>
+<p>Dear {{userName}},</p>
+
+<div class="alert-box">
+<p><strong>Important Notice:</strong> Your account balance is running low. To ensure uninterrupted service, please top up your credits soon.</p>
+</div>
+
+<div class="credit-status">
+<p>Current Credit Balance</p>
+<div class="credit-amount">{{remainingCredits}}</div>
+<p>Credits Remaining</p>
+</div>
+
+<div class="usage-details">
+<p><strong>Account Details:</strong></p>
+<p><strong>Last Transaction:</strong> {{lastTransactionDate}}</p>
+<p><strong>Average Monthly Usage:</strong> {{averageMonthlyUsage}} credits</p>
+<p><strong>Estimated Days Remaining:</strong> {{estimatedDaysRemaining}} days</p>
+</div>
+
+<p style="text-align: center;">
+<a href="{{topUpUrl}}" class="btn">Top Up Credits Now</a>
+</p>
+
+<p>To prevent any service interruptions, we recommend maintaining a minimum balance of {{minimumRecommendedCredits}} credits.</p>
+
+<div class="signature">
+<p>Best regards,<br>{{companyName}} Team</p>
+<p style="font-size: 0.9em; color: #666;">
+Need help? Contact our support team at {{supportEmail}}
+</p>
+</div>
+</body>
+</html>

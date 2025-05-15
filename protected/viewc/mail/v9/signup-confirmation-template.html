@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Welcome to {{companyName}}!</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+		<style>
+			body {
+				font-family: "Roboto", sans-serif;
+				line-height: 1.6;
+				color: #333;
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.logo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.logo img {
+				max-width: 200px;
+			}
+			h1 {
+				color: #2c3e50;
+				text-align: center;
+			}
+			.account-details {
+				background-color: #e8f4fd;
+				border: 1px solid #3498db;
+				border-radius: 5px;
+				padding: 15px;
+				margin-top: 20px;
+			}
+			.cta-button {
+				display: inline-block;
+				background-color: #3498db;
+				color: white;
+				text-decoration: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				margin-top: 20px;
+			}
+			.signature {
+				margin-top: 30px;
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="{{logoUrl}}" alt="{{companyName}} Logo" />
+		</div>
+		<h1>Welcome to {{companyName}}!</h1>
+		<p>Dear {{userName}},</p>
+		<p>Thank you for signing up with {{companyName}}. We're excited to have you on board!</p>
+		<p>Your account has been successfully created with the following details:</p>
+		<div class="account-details">
+			<p>Username: <strong>{{loginId}}</strong></p>
+			<p>Account Type: <strong>{{accountType}}</strong></p>
+			<p>Email: <strong>{{userEmail}}</strong></p>
+		</div>
+
+		<p>To get started, please click the button below to singin to your account:</p>
+		<p style="text-align: center">
+			<a href="{{appLoginLink}}" class="cta-button">Login to your Account</a>
+		</p>
+		{{#if isReseller}}
+		<div class="account-details">
+			<p><strong>Reseller Domain Configuration:</strong></p>
+			<p>
+				For resellers, if you want your domain name to point to our SMS app, please add the following record to the DNS settings in your control
+				panel:
+			</p>
+			<p><strong>Type:</strong> A Record</p>
+			<p><strong>Value:</strong> {{mainServerIp}}</p>
+		</div>
+		{{/if}}
+
+		<p>If you have any questions or need assistance, please don't hesitate to contact our support team at {{supportEmail}}.</p>
+		<div class="signature">
+			<p>Best regards,<br />The {{companyName}} Team</p>
+		</div>
+	</body>
+</html>

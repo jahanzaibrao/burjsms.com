@@ -1,0 +1,40 @@
+Exception Object
+(
+    [message:protected] => 
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /var/www/html/protected/controller/AdminController.php
+    [line:protected] => 45
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/dooframework/app/DooWebApp.php
+                    [line] => 107
+                    [function] => __construct
+                    [class] => AdminController
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/dooframework/app/DooWebApp.php
+                    [line] => 39
+                    [function] => routeTo
+                    [class] => DooWebApp
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 49
+                    [function] => run
+                    [class] => DooWebApp
+                    [type] => ->
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)

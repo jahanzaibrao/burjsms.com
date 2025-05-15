@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Your Scheduled Campaign Has Been Sent</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+		<style>
+			body {
+				font-family: "Montserrat", sans-serif;
+				line-height: 1.6;
+				color: #333;
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.logo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.logo img {
+				max-width: 200px;
+			}
+			h1 {
+				color: #3498db;
+				text-align: center;
+			}
+			.campaign-info {
+				background-color: #e8f4fd;
+				border: 1px solid #3498db;
+				border-radius: 5px;
+				padding: 15px;
+				margin-top: 20px;
+			}
+			.stats-button {
+				display: inline-block;
+				background-color: #3498db;
+				color: white;
+				text-decoration: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				margin-top: 20px;
+			}
+			.next-steps {
+				margin-top: 20px;
+				padding: 15px;
+				background-color: #f9f9f9;
+				border-radius: 5px;
+			}
+			.signature {
+				margin-top: 30px;
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="{{logoUrl}}" alt="{{companyName}} Logo" />
+		</div>
+		<h1>Your Campaign Has Been Sent</h1>
+		<p>Dear {{userName}},</p>
+		<p>We're excited to inform you that your scheduled campaign has been successfully sent!</p>
+		<div class="campaign-info">
+			<p><strong>Sent Date:</strong> {{sentDate}}</p>
+			<p><strong>Recipients:</strong> {{recipientCount}}</p>
+			<p><strong>SMS Text:</strong> {{smsText}}</p>
+		</div>
+		<p>You can now track the performance of your campaign in real-time. Click the button below to view your campaign statistics:</p>
+		<p style="text-align: center">
+			<a href="{{campaignStatsLink}}" class="stats-button">View Campaign Stats</a>
+		</p>
+		<div class="next-steps">
+			<h3>Next Steps:</h3>
+			<ul>
+				<li>Monitor your open rates and click-through rates</li>
+				<li>Analyze recipient engagement and adjust your strategy accordingly</li>
+				<li>Prepare for any follow-up campaigns based on the results</li>
+			</ul>
+		</div>
+		<p>
+			If you have any questions about your campaign or need assistance interpreting the results, our support team is here to help. Contact us at
+			{{supportEmail}}.
+		</p>
+		<div class="signature">
+			<p>Best regards,<br />The {{companyName}} Marketing Team</p>
+		</div>
+	</body>
+</html>

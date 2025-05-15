@@ -1,0 +1,110 @@
+h1 span{ color:#fd7c26;}
+h3.red_bg{ background:#fd7c26; color:#fff;}
+
+/*Top row*/
+.header{ border-bottom:5px solid #fd7c26;}
+
+.navbar .nav > li > a:hover{ background:#fd7c26;}
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle { background-color: #fd7c26;}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	 background-color:#fd7c26;
+}
+
+
+.dropdown-menu > li:first-child > a{ border:none;}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  background-color: #ed650a;
+  
+}
+.navbar .nav > li > .dropdown-menu:after { border-bottom: 6px solid #fd7c26;}
+.dropdown-menu { background-color: #fd7c26;}
+.dropdown-menu > li > a { border-top:1px solid #d65600;}
+
+
+/*button*/
+.btn-danger {
+  background-color: #e58100;
+  *background-color: #e58100; position:relative;
+  background-image: -moz-linear-gradient(top, #fd7c26, #e58100);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fd7c26), to(#e58100));
+  background-image: -webkit-linear-gradient(top, #fd7c26, #e58100);
+  background-image: -o-linear-gradient(top, #fd7c26, #e58100);
+  background-image: linear-gradient(to bottom, #fd7c26, #e58100);
+  border:1px solid #b76700;
+  -moz-box-shadow:0px 1px 0px #f8b966 inset;
+   -webkit-box-shadow:0px 1px 0px #f8b966 inset;
+   box-shadow:0px 1px 0px #f8b966 inset;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  background:#e58100;
+  *background: #e58100;
+}
+
+
+.why_choose_us ul li i{ color:#fd7c26;}
+
+
+.tab_contant a{color:#fd7c26; border-bottom:2px solid #ffb482;}
+.tab_contant a:hover{color:#fd7c26;}
+
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #fd7c26;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  color: #fd7c26;
+}
+.usefull_links ul li a:hover{ color:#fd7c26;}
+.latest_tweets p span{ color:#fd7c26;}
+.about_us ul li a:hover{color:#fd7c26;}
+.tri_sec:hover{ background:#fd7c26;}
+.next:hover, .prev:hover{ background:#fd7c26}
+.project:hover{ border-bottom:4px solid #fd7c26;}
+
+
+.post .post_image p{background:#fd7c26;}
+.post .post_image p span.year{color:#fd7c26;}
+.post .post_contant ul.posted_by li a.comments:hover{ color:#fd7c26;}
+
+
+.welcome_txt p.what_we_love{color: #fd7c26;}
+.contact_info ul li a:hover{color:#fd7c26;}
+.faq_contact p span{ color:#fd7c26;}
+.table_stroke ul li.middle{background: none repeat scroll 0 0 #fd7c26;}
+.table_stroke ul li.middle p.signup{background:#d33014;}
+.table_stroke ul li.middle .btn.btn-danger{color:#fd7c26;}
+.filter a:hover, .current a {background:#fd7c26;}
+.portfolio li:after{border-color: #fd7c26 transparent;}
+.portfolio_contant{ background:#f6f6f6;}
+.blog_nav li a:hover{color:#fd7c26;}
+.breadcrumb > li a:hover{ color:#fd7c26;}
+
+
+.accordion-heading:hover .accordion-toggle:hover{ background:#fd7c26; color:#fff;}
+.tri_sec:hover{border:1px solid #d65600;}
+.tri_sec:hover span.borders{ border-bottom:1px solid #d65600;border-top:1px solid #d65600;}
+
+
+.anythingSlider-default .back a:hover,
+.anythingSlider-default .back a.hover {background-color:#fd7c26;}
+.anythingSlider-default .forward a:hover,
+.anythingSlider-default .forward a.hover {background-color:#fd7c26;}
+

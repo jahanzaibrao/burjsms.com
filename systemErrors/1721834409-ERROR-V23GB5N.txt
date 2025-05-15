@@ -1,0 +1,83 @@
+PDOException Object
+(
+    [message:protected] => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    [string:Exception:private] => 
+    [code:protected] => 42000
+    [file:protected] => /var/www/html/dooframework/db/DooSqlMagic.php
+    [line:protected] => 300
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/dooframework/db/DooSqlMagic.php
+                    [line] => 300
+                    [function] => execute
+                    [class] => PDOStatement
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/dooframework/db/DooSqlMagic.php
+                    [line] => 686
+                    [function] => query
+                    [class] => DooSqlMagic
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/protected/model/ScSmsRoutes.php
+                    [line] => 18
+                    [function] => find
+                    [class] => DooSqlMagic
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/protected/controller/AdminController.php
+                    [line] => 8680
+                    [function] => getPlanRoutes
+                    [class] => ScSmsRoutes
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/dooframework/app/DooWebApp.php
+                    [line] => 134
+                    [function] => setMccmncPricing
+                    [class] => AdminController
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/dooframework/app/DooWebApp.php
+                    [line] => 39
+                    [function] => routeTo
+                    [class] => DooWebApp
+                    [type] => ->
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 49
+                    [function] => run
+                    [class] => DooWebApp
+                    [type] => ->
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42000
+            [1] => 1064
+            [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+        )
+
+)

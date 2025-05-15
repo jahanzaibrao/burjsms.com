@@ -1,0 +1,202 @@
+h1 span {
+    color: #e91b23;
+}
+
+h3.red_bg {
+    background: #e91b23;
+    color: #fff;
+}
+
+/*Top row*/
+.header {
+    border-bottom: 5px solid #e91b23;
+}
+
+.navbar .nav > li > a:hover {
+    background: #e91b23;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	 background-color:#E91B23;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: #E91B23;
+}
+
+.dropdown-menu > li:first-child > a{ border:none;}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  background-color: #cc1822;
+  
+}
+.navbar .nav > li > .dropdown-menu:after {
+    border-bottom: 6px solid #E91B23;
+}
+
+.dropdown-menu {
+    background-color: #E91B23;
+}
+
+.dropdown-menu > li > a {
+    border-top: 1px solid #be0b12;
+}
+
+/*button*/
+.btn-danger {
+    background-color: #d91b25;
+    *background-color: #d91b25;
+    position: relative;
+    background-image: -moz-linear-gradient(top, #e83b44, #d91b25);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e83b44), to(#d91b25));
+    background-image: -webkit-linear-gradient(top, #e83b44, #d91b25);
+    background-image: -o-linear-gradient(top, #e83b44, #d91b25);
+    background-image: linear-gradient(to bottom, #e83b44, #d91b25);
+    border: 1px solid #cc1822;
+    -moz-box-shadow: 0px 1px 0px #F29297 inset;
+    -webkit-box-shadow: 0px 1px 0px #F29297 inset;
+    box-shadow: 0px 1px 0px #F29297 inset;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+    background: #d81d27;
+    *background: #d81d27;
+}
+
+.why_choose_us ul li i {
+    color: #e91b23;
+}
+
+.tab_contant a {
+    color: #e91b23;
+    border-bottom: 2px solid #f7d3d3;
+}
+
+.tab_contant a:hover {
+    color: #e91b23;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #e91b23;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+    color: #e91b23;
+}
+
+.usefull_links ul li a:hover {
+    color: #e91b23;
+}
+
+.latest_tweets p span {
+    color: #e91b23;
+}
+
+.about_us ul li a:hover {
+    color: #e91b23;
+}
+
+.tri_sec:hover {
+    background: #e91b23;
+}
+
+.next:hover, .prev:hover {
+    background: #e91b23;
+}
+
+.project:hover {
+    border-bottom: 4px solid #e91b23;
+}
+
+.post .post_image p {
+    background: #e91b23;
+}
+
+.post .post_image p span.year {
+    color: #e91b23;
+}
+
+.post .post_contant ul.posted_by li a.comments:hover {
+    color: #e91b23;
+}
+
+.welcome_txt p.what_we_love {
+    color: #E91B23;
+}
+
+.contact_info ul li a:hover {
+    color: #e91b23;
+}
+
+.faq_contact p span {
+    color: #e91b23;
+}
+
+.table_stroke ul li.middle {
+    background: none repeat scroll 0 0 #e91b23;
+}
+
+.table_stroke ul li.middle p.signup {
+    background: #d33014;
+}
+
+.table_stroke ul li.middle .btn.btn-danger {
+    color: #e91b23;
+}
+
+.filter a:hover, .current a {
+    background: #e91b23;
+}
+
+.portfolio li:after {
+    border-color: #e91b23 transparent;
+}
+
+.portfolio_contant {
+    background: #f6f6f6;
+}
+
+.blog_nav li a:hover {
+    color: #e91b23;
+}
+
+.breadcrumb > li a:hover {
+    color: #e91b23;
+}
+
+.accordion-heading:hover .accordion-toggle:hover {
+    background: #E91B23;
+    color: #fff;
+}
+
+.tri_sec:hover {
+    border: 1px solid #d21017;
+}
+
+.tri_sec:hover span.borders {
+    border-bottom: 1px solid #d21017;
+    border-top: 1px solid #d21017;
+}
+
+.anythingSlider-default .back a:hover,
+.anythingSlider-default .back a.hover {
+    background-color: #E91B23;
+}
+
+.anythingSlider-default .forward a:hover,
+.anythingSlider-default .forward a.hover {
+    background-color: #E91B23;
+}

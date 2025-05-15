@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>New Sender Approval Request</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<style>
+			body {
+				font-family: "Roboto", sans-serif;
+				line-height: 1.6;
+				color: #333;
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.logo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.logo img {
+				max-width: 200px;
+			}
+			h1 {
+				color: #f39c12;
+				text-align: center;
+			}
+			.request-info {
+				background-color: #fef9e7;
+				border: 1px solid #f39c12;
+				border-radius: 5px;
+				padding: 15px;
+				margin-top: 20px;
+			}
+			.action-button {
+				display: inline-block;
+				background-color: #f39c12;
+				color: white;
+				text-decoration: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				margin-top: 20px;
+			}
+			.reminder {
+				margin-top: 20px;
+				padding: 15px;
+				background-color: #f9f9f9;
+				border-radius: 5px;
+				font-style: italic;
+			}
+			.signature {
+				margin-top: 30px;
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="{{logoUrl}}" alt="{{companyName}} Logo" />
+		</div>
+		<h1>New Sender Approval Request</h1>
+		<p>Dear Admin,</p>
+		<p>A new sender approval request has been submitted by one of our customers. Please review the details below and take appropriate action.</p>
+		<div class="request-info">
+			<p><strong>Sender ID:</strong> {{senderId}}</p>
+			<p><strong>Customer Name:</strong> {{subUserName}}</p>
+			<p><strong>Account ID:</strong> {{subLoginId}}</p>
+			<p><strong>Customer Email:</strong> {{subUserEmail}}</p>
+			<p><strong>Request Date:</strong> {{incidentDateTime}}</p>
+		</div>
+		<p>To review and approve or deny this request, please click the button below:</p>
+		<p style="text-align: center">
+			<a href="{{approvalLink}}" class="action-button">Review Request</a>
+		</p>
+		<div class="reminder">
+			<p>Remember to verify the sender's identity and ensure compliance with our sending policies before approving the request.</p>
+		</div>
+		<p>If you need any additional information or have questions about this request, please contact the customer support team at {{supportEmail}}.</p>
+		<div class="signature">
+			<p>Thank you for your prompt attention to this matter,<br />{{companyName}} Compliance Team</p>
+		</div>
+	</body>
+</html>

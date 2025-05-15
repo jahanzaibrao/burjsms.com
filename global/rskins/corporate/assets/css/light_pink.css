@@ -1,0 +1,110 @@
+h1 span{ color:#fc4349;}
+h3.red_bg{ background:#fc4349; color:#fff;}
+
+/*Top row*/
+.header{ border-bottom:5px solid #fc4349;}
+
+.navbar .nav > li > a:hover{ background:#fc4349;}
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle { background-color: #fc4349;}
+
+
+.navbar .nav > li.active > a,
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li.active > a:focus {
+	 background-color:#fc4349;
+}
+
+.dropdown-menu > li:first-child > a{ border:none;}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  background-color: #e72e34;
+  
+}
+.navbar .nav > li > .dropdown-menu:after { border-bottom: 6px solid #fc4349;}
+.dropdown-menu { background-color: #fc4349;}
+.dropdown-menu > li > a { border-top:1px solid #d1181e;}
+
+
+/*button*/
+.btn-danger {
+  background-color: #ee2329;
+  *background-color: #ee2329; position:relative;
+  background-image: -moz-linear-gradient(top, #fc4349, #ee2329);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee2329), to(#00afaf));
+  background-image: -webkit-linear-gradient(top, #fc4349, #ee2329);
+  background-image: -o-linear-gradient(top, #fc4349, #ee2329);
+  background-image: linear-gradient(to bottom, #fc4349, #ee2329);
+  border:1px solid #d10209;
+  -moz-box-shadow:0px 1px 0px #fa6e72 inset;
+   -webkit-box-shadow:0px 1px 0px #fa6e72 inset;
+   box-shadow:0px 1px 0px #fa6e72 inset;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  background:#d10209;
+  *background: #d10209;
+}
+
+
+.why_choose_us ul li i{ color:#fc4349;}
+
+
+.tab_contant a{color:#fc4349; border-bottom:2px solid #f7d3d3;}
+.tab_contant a:hover{color:#fc4349;}
+
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #fc4349;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  color: #fc4349;
+}
+.usefull_links ul li a:hover{ color:#fc4349;}
+.latest_tweets p span{ color:#fc4349;}
+.about_us ul li a:hover{color:#fc4349;}
+.tri_sec:hover{ background:#fc4349;}
+.next:hover, .prev:hover{ background:#fc4349}
+.project:hover{ border-bottom:4px solid #fc4349;}
+
+
+.post .post_image p{background:#fc4349;}
+.post .post_image p span.year{color:#fc4349;}
+.post .post_contant ul.posted_by li a.comments:hover{ color:#fc4349;}
+
+
+.welcome_txt p.what_we_love{color: #fc4349;}
+.contact_info ul li a:hover{color:#fc4349;}
+.faq_contact p span{ color:#fc4349;}
+.table_stroke ul li.middle{background: none repeat scroll 0 0 #fc4349;}
+.table_stroke ul li.middle p.signup{background:#d33014;}
+.table_stroke ul li.middle .btn.btn-danger{color:#fc4349;}
+.filter a:hover, .current a {background:#fc4349;}
+.portfolio li:after{border-color: #fc4349 transparent;}
+.portfolio_contant{ background:#f6f6f6;}
+.blog_nav li a:hover{color:#fc4349;}
+.breadcrumb > li a:hover{ color:#fc4349;}
+
+
+.accordion-heading:hover .accordion-toggle:hover{ background:#fc4349; color:#fff;}
+.tri_sec:hover{border:1px solid #d1181e;}
+.tri_sec:hover span.borders{ border-bottom:1px solid #d1181e;border-top:1px solid #d1181e;}
+
+
+.anythingSlider-default .back a:hover,
+.anythingSlider-default .back a.hover {background-color:#fc4349;}
+.anythingSlider-default .forward a:hover,
+.anythingSlider-default .forward a.hover {background-color:#fc4349;}
+

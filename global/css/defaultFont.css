@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'URW Gothic L2'; /* Name you will use in CSS */
+    src: url('fonts/urw-gothic-l-2.woff2') format('woff2'), /* Define font file path */
+         url('fonts/urw-gothic-l-2.woff') format('woff'), 
+         url('fonts/urw-gothic-l-2.ttf') format('truetype'); /* Fallback formats */
+}

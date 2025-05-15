@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Account Temporarily Blocked - Suspicious Activity</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+		<style>
+			body {
+				font-family: "Roboto", sans-serif;
+				line-height: 1.6;
+				color: #333;
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.logo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.logo img {
+				max-width: 200px;
+			}
+			h1 {
+				color: #e74c3c;
+				text-align: center;
+			}
+			.alert-box {
+				background-color: #fadbd8;
+				border: 2px solid #e74c3c;
+				padding: 15px;
+				margin-top: 20px;
+				border-radius: 5px;
+			}
+			.cta-button {
+				display: inline-block;
+				background-color: #3498db;
+				color: white;
+				text-decoration: none;
+				padding: 10px 20px;
+				border-radius: 5px;
+				margin-top: 20px;
+			}
+			.signature {
+				margin-top: 30px;
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="{{logoUrl}}" alt="{{companyName}} Logo" />
+		</div>
+		<h1>Account Temporarily Blocked</h1>
+		<div class="alert-box">
+			<p><strong>Dear {{userName}},</strong></p>
+			<p>
+				We have detected suspicious activity on your account. As a precautionary measure, your account has been temporarily blocked due to potential
+				spam SMS activity.
+			</p>
+		</div>
+		<p>Details of the incident:</p>
+		<ul>
+			<li>Date and Time: {{incidentDateTime}}</li>
+			<li>Activity: Suspected spam SMS sent</li>
+			<li>Account: {{loginId}}</li>
+			<li>SMS Text: {{smsText}}</li>
+			<li>Recipients Count: {{recipientCount}}</li>
+		</ul>
+		<p>
+			To protect your account and our services, we have temporarily suspended your ability to send SMS messages. To reactivate your account, please
+			follow these steps:
+		</p>
+		<ol>
+			<li>Contact our support team to verify your identity and discuss the incident</li>
+			<li>Review your recent account activity</li>
+		</ol>
+		<p style="text-align: center">
+			<a href="{{supportLink}}" class="cta-button">Contact Support</a>
+		</p>
+		<p>If you believe this is an error or if you have any questions, please don't hesitate to reach out to our support team at {{supportEmail}}.</p>
+		<div class="signature">
+			<p>Best regards,<br />The {{companyName}} Security Team</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRITICAL SYSTEM ALERT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 200px;
+        }
+        h1 {
+            color: #c0392b;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .alert-box {
+            background-color: #fadbd8;
+            border: 2px solid #e74c3c;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .alert-title {
+            color: #c0392b;
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .alert-details {
+            margin-top: 15px;
+        }
+        .action-required {
+            background-color: #f39c12;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .signature {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="{{logoUrl}}" alt="{{companyName}} Logo">
+    </div>
+    <h1>Critical System Alert</h1>
+    <div class="alert-box">
+        <p class="alert-title">Alert Type: {{alertType}}</p>
+        <div class="alert-details">
+            <p><strong>Timestamp:</strong> {{timestamp}}</p>
+            <p><strong>System:</strong> {{affectedSystem}}</p>
+            <p><strong>Severity:</strong> {{severity}}</p>
+            <p><strong>Description:</strong> {{alertDescription}}</p>
+        </div>
+        <p class="action-required">Immediate Action Required</p>
+    </div>
+    <p><strong>Current Status:</strong> {{currentStatus}}</p>
+    <p><strong>Recommended Action:</strong> {{recommendedAction}}</p>
+    <p>Please investigate and take necessary actions immediately. If you need additional resources or support, contact the on-call team at {{onCallContact}}.</p>
+    <p>For detailed logs and system information, please check the monitoring dashboard: <a href="{{dashboardLink}}">{{dashboardLink}}</a></p>
+    <div class="signature">
+        <p>Automated Alert System<br>{{companyName}} IT Operations</p>
+    </div>
+</body>
+</html>

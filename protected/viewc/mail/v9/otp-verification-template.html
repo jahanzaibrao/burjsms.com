@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Your One-Time Password (OTP)</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+		<style>
+			body {
+				font-family: "Lato", sans-serif;
+				line-height: 1.6;
+				color: #333;
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.logo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.logo img {
+				max-width: 200px;
+			}
+			h1 {
+				color: #2980b9;
+				text-align: center;
+			}
+			.otp-code {
+				font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+				letter-spacing: 5px;
+				margin: 30px 0;
+				color: #2980b9;
+			}
+			.warning {
+				background-color: #e8f4f8;
+				border-left: 4px solid #3498db;
+				padding: 10px;
+				margin-top: 20px;
+			}
+			.signature {
+				margin-top: 30px;
+				border-top: 1px solid #eee;
+				padding-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="{{logoUrl}}" alt="{{companyName}} Logo" />
+		</div>
+		<h1>Your One-Time Password (OTP)</h1>
+		<p>Dear {{userName}},</p>
+		<p>You have requested a one-time password (OTP) for {{actionType}}. Please use the following code to complete your action:</p>
+		<div class="otp-code">{{otpCode}}</div>
+		<p>This OTP will expire in {{expirationTime}} minutes.</p>
+		<div class="warning">
+			<p>
+				<strong>Security Notice:</strong> Never share this OTP with anyone. {{companyName}} will never ask for your OTP through phone, email, or SMS.
+			</p>
+		</div>
+		<p>If you didn't request this OTP, please ignore this email or contact our support team at {{supportEmail}} if you have any concerns.</p>
+		<div class="signature">
+			<p>Best regards,<br />The {{companyName}} Security Team</p>
+		</div>
+	</body>
+</html>

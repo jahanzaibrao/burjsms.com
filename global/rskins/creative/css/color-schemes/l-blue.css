@@ -1,0 +1,105 @@
+
+/* Color */
+.scrolling,.section .owl-controls .owl-buttons div i, .site-logo a, .left.carousel-control, .right.carousel-control, .carousel-caption h1, .carousel-caption .btn:hover, .video-section li:hover i, .pricing .price-box .currency, .social-team li:hover .fa, .team-section .team-item .name, .development .nav-tabs > li > a, .right-tab .tabs .tab-content a, .testimonials-section .name, .footer-section .latest-post li a:hover, .copy-rights-section p, .copy-rights-section a, .footer-section a:hover, .copy-rights-bg .social-icon a:hover, #projects .page-desc-section h2, #projects .page-desc-section .page-desc:before, #projects .your-works-section ul.work-pagination li a:hover, #projects .your-works-section ul.work-pagination a:focus, #projects .your-works-section ul.work-pagination li a:active, #projects .your-works-section .work-pagination li.preview:hover .fa, #projects .your-works-section .work-pagination li.next:hover .fa, #single-projects .page-desc-section .page-desc:before, #single-projects .section .owl-buttons i, .page-desc-section h2, #about-us .know-about-us-section h3, #about-us .review-section a:hover, #blog .page-desc-section .page-desc:before, .blog-post .thumbnail .btn:hover, .blog-post .post-details i, .flex-prev,.flex-next, .flex-direction-nav a:before, .blog-post .pagination > li:first-child > a,.blog-post .pagination > li:first-child > span,.blog-post .pagination > li:last-child > a,.blog-post .pagination > li:last-child > span, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus,  .about-author h3, .comment a, .comment-form .input-group-addon i, #services .page-desc-section .page-desc:before, #contact-us .page-desc-section h2, #contact-us .page-desc-section .page-desc:before, #contact-us .customer-support-section .input-group .input-group-addon:first-child, .footer-section .latest-post li a:hover, .page-desc-section .page-desc:before, #single-projects .single-item-section .project-details h4, .zoom.work-control, .link.work-control, #projects .your-works-section .zoom.work-control, #projects .your-works-section .link.work-control, #contact-us .customer-support-section .send-btn .send-button:hover{
+	color:#0ee6f9;
+}
+
+/* Background Color */
+.button, .section .owl-controls .owl-buttons div:hover, .site-logo a:before, .menu-bar .nav > li:hover , .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active, .carousel-indicators li.active, .left.carousel-control:hover,.right.carousel-control:hover, .carousel-caption .btn, .work-box, .features-section .feature-icon, .video-section .button, .pricing .price-box .premium, .pricing .price-box .premium:after,  .development .nav-tabs > li.active > a, .development .nav-tabs > li.active > a:hover, .development .nav-tabs > li.active > a:focus, .right-tab .nav-tabs > li.active > a:after, #projects .your-works-section .work-pagination li.preview, #projects .your-works-section .work-pagination li.next, #projects .your-works-section .work-pagination li.preview:after, #projects .your-works-section .work-pagination li.next:after,  #about-us .tap-section .panel-heading .accordion-toggle:before, #about-us .skill-counter-section .progress-bar, .blog-post .thumbnail .btn, .blog-post .blog-date, .flex-prev:hover,.flex-next:hover, .blog-post .pagination > li:first-child > a:hover ,.blog-post .pagination > li:last-child > a:hover, .comment-form button, #contact-us .contact-details-section .datail-box .detail-title, #contact-us .contact-details-section .datail-box .detail-title:after, #contact-us .customer-support-section .send-btn .send-button, #about-us .tap-section .panel-heading .accordion-toggle:before, #about-us .tap-section .panel-heading .accordion-toggle:after, .menu-box {
+	background:#0ee6f9;
+}	
+
+/* Border Color */
+.section .owl-controls .owl-buttons div, .navbar-header .navbar-toggle,  .has-error .input-group-addon,.has-success .input-group-addon, .has-error .form-control,.has-error .form-control:focus,.has-success .form-control,.has-success .form-control:focus  {
+  	 border-color:#0ee6f9;
+}
+
+/* Border 1px Color */
+.section .owl-controls .owl-buttons div, .left.carousel-control, .right.carousel-control,  .carousel-caption .btn,  .carousel-indicators li, .video-section .button, .video-section .button:hover, .pricing .price-box .price-category:after,  .development .button, .right-tab .nav-tabs > li.active > a, .right-tab .nav-tabs > li.active > a:hover, .right-tab .nav-tabs > li.active > a:focus, .right-tab .tabs, .right-tab .nav-tabs > li a, #projects .your-works-section .work-pagination li.preview, #projects .your-works-section .work-pagination li.next, #projects .your-works-section .work-pagination li.preview:hover, #projects .your-works-section .work-pagination li.next:hover, #projects .your-works-section .work-pagination li:hover.preview:after, #projects .your-works-section .work-pagination li:hover.next:after, .blog-post .thumbnail .btn, .flex-prev,.flex-next, .blog-post .pagination > li:first-child > a,.blog-post .pagination > li:first-child > span,.blog-post .pagination > li:last-child > a,.blog-post .pagination > li:last-child > span, .blog-post .pagination > li:first-child > a:after,.blog-post .pagination > li:first-child > span:after, .blog-post .pagination > li:last-child > a:after,.blog-post .pagination > li:last-child > span:after, .comment-form .form-control, .comment-form button, .comment-form button:hover,.btn-default[disabled], .comment-form .input-group-addon, #contact-us .contact-details-section .datail-box, #contact-us .contact-details-section .datail-box:after, #contact-us .customer-support-section .input-group .input-group-addon:first-child, .pricing .price-box .price-category, .right-tab .nav-tabs > li a, .development .button:hover, #contact-us .customer-support-section .form-control, #contact-us .customer-support-section .contact-message-box, #contact-us .customer-support-section .send-btn .send-button:hover{
+  	border: 1px solid #0ee6f9;
+}
+
+/* Border Bottom Color */
+.section .owl-buttons .owl-prev:after, .section .owl-buttons .owl-next:after, .left.carousel-control:after, .right.carousel-control:after, .development .right-tab .nav-tabs, .flex-prev:after, .flex-next:after{	
+    border-bottom: 1px solid #0ee6f9;
+}
+
+/* Border Right Color */
+.section .owl-buttons .owl-prev:after, .left.carousel-control:after, .flex-prev:after, .left.carousel-control:after {	
+    border-right: 1px solid #0ee6f9;
+}
+
+/* Border Left Color */
+.section .owl-buttons .owl-next:after, .right.carousel-control:after, .flex-next:after, #contact-us .customer-support-section .contact-message-box  {	
+    border-left: 1px solid #0ee6f9;
+}
+
+/* Border Color (right-color)*/
+.development .left-tab .nav-tabs > li.active > a:after {
+    border-color: transparent transparent transparent #0ee6f9;
+}
+/* Border Top 18px  */
+.features-section .feature-icon:after{	
+    border-top: 18px solid #0ee6f9;
+}
+/* Border top 23px */
+.blog-post .blog-date:after{
+	border-top: 23px solid #0ee6f9; 
+}
+/* Box Shadow 3px px */
+.footer-section .flickr img:hover{
+	box-shadow:0 0 0 3px #0ee6f9;
+}
+/* mask */
+.owl-item .mask, #projects .your-works-section .work-item .mask, .section .owl-controls .owl-page.active span{
+   background-color:#0ee6f9;
+}
+/* Move To sroll Shape */
+.scrolling > span:after {
+    border-bottom: 25px solid #0ee6f9;
+    border-right: 62px solid transparent;
+}
+#contact-us .customer-support-section .contact-message-box{
+	border:1px solid  #0ee6f9;
+	border-left:1px solid #0ee6f9 !important;
+}
+#contact-us .customer-support-section .comment-message{
+	color: #0ee6f9 !important;
+}
+/* ---------- MAX 767PX ---------- */
+@media only screen and (max-width:767px) {
+	.menu-bar .navbar-nav > li a{
+		border-bottom:1px solid #0ee6f9;
+	}
+	.menu-bar .nav > li:hover , .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a.active,.menu-bar .nav > li:hover:after{
+	color:#0ee6f9;
+	}
+	.menu-bar .navbar-collapse{
+		border:1px solid #0ee6f9;
+	}
+	/* Blog */
+	.blog-post .blog-date:after {
+		border-left: 50px solid rgba(0, 0, 0, 0);
+		border-top: 15px solid #0ee6f9;
+	}
+}
+}
+@media screen and (max-width:480px) {
+	.owl-item .mask h3, .owl-item .mask .mask-links a, #projects .your-works-section .mask-links a .fa {	
+		color:#0ee6f9;
+	}
+	.features-section .feature-icon:after {
+		border-left: 42px solid rgba(0, 0, 0, 0);
+		border-top: 10px solid 0ee6f9;
+	}
+	.owl-item .mask h3, .owl-item .mask .mask-links a, #projects .your-works-section .mask-links a .fa {	
+		color:#0ee6f9;
+	}
+}
+
+
+
+
+
+
+
